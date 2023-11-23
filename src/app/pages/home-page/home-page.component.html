@@ -1,0 +1,18 @@
+<div class="home-page-container row mx-0">
+    <!-- <img src="https://image.tmdb.org/t/p/w1280/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg" class="main-banner-img px-0" alt=""> -->
+    <div class="row mx-0 justify-content-between">
+        <div class="col-auto">
+            <h1 class="main-title">Popular Movies</h1>
+        </div>
+        <div class="col-auto">
+            <a routerLink="./search" class="search-link">
+                <i class="bi bi-search"></i>
+            </a>
+        </div>
+    </div>
+    <div class="movies-list row mx-0 justify-content-around">
+        <div class="col-auto px-0 mb-3" *ngFor="let item of loopArray; let i = index">
+            <app-movie-card (onClick)="onSelectingMovie()"></app-movie-card>
+        </div>
+    </div>
+</div>

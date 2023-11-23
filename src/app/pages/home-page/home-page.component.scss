@@ -1,0 +1,34 @@
+
+.home-page-container {
+    position: relative;
+    height: 100%;
+    padding: 2vw 1vw;
+
+    .movies-list {
+        // height: 50vh;
+        // overflow: auto;
+        // position: absolute;
+        // top: 50%;
+
+        height: 80%;
+        overflow: scroll;
+    }
+
+    .main-title {
+        font-family: poppins-bold;
+        font-size: 3vw;
+    }
+    
+    .main-banner-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .search-link {
+        color: white;
+        font-size: 2.5vw;
+    }
+}

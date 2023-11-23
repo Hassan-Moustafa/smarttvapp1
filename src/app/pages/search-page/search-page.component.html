@@ -1,0 +1,30 @@
+<div class="search-page-container row mx-0">
+    <h1 class="main-title mx-2">Search </h1>
+    <div class="row mx-0 justify-content-between">
+        <div class="col-auto px-0">
+            <div class="row mx-0" *ngFor="let row of keyBoardKeys">
+                <button *ngFor="let key of row" class="focusable bi {{!isString(key) ? key.icon : ''}} col key-btn" (click)="onAddCharacter(key)">{{isString(key) ? key : ''}}</button>
+            </div>
+        </div>
+        <div class="col-8">
+            <input type="text" class="form-control search-field mt-2" [(ngModel)]="searchValue">
+            <div class="search-results row">
+                <div class="col-auto">
+                    <app-movie-card></app-movie-card>
+                </div>
+                <div class="col-auto">
+                    <app-movie-card></app-movie-card>
+                </div>
+                <div class="col-auto">
+                    <app-movie-card></app-movie-card>
+                </div>
+                <div class="col-auto">
+                    <app-movie-card></app-movie-card>
+                </div>
+                <div class="col-auto">
+                    <app-movie-card></app-movie-card>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

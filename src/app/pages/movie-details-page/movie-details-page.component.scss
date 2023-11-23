@@ -1,0 +1,45 @@
+
+
+.movie-details-page-container {
+    height: 100%;
+    padding: 7vw;
+
+    .movie-title {
+        font-size: 4vw;
+        font-family: poppins-bold;
+    }
+
+    .movie-poster {
+        width: 19.5vw;
+    }
+
+    .movie-details {
+        color: white;
+    }
+
+    .movie-year-genra-seasons {
+        font-size: 1.5vw;
+        font-family: poppins;
+        color: #d3d3d3;
+    }
+
+    .movie-description{
+        margin-top: 3vw;
+        font-size: 1.5vw;
+        font-family: poppins;
+
+    }
+
+    .watch-btn {
+        width: 15vw;
+        height: 3.5vw;
+        background-color: #D11621;
+        color: white;
+        border: 0;
+        font-family: poppins-bold;
+
+        &:focus {
+            border: 2px solid white;
+        }
+    }
+}

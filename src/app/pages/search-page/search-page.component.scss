@@ -1,0 +1,38 @@
+
+.search-page-container {
+    padding: 5vw;
+
+    .main-title {
+        font-size: 3vw;
+    }
+
+    .key-btn {
+        border: 0;
+        background-color: #3A3B3F;
+        margin: 0.5vw;
+        font-size: 1.5vw;
+        color: white;
+        width: 3vw;
+        height: 3vw;
+        border-radius: 0.3vw;
+        font-family: poppins-bold;
+    }
+    
+    .bi-usb-fill {
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+    
+    .search-field {
+        width: 50vw;
+        height: 4vw;
+        font-size: 1.4vw;
+    }
+
+    .search-results {
+        margin-top: 2vw;
+        height: 60vh;
+        overflow: scroll;
+    }
+
+}
